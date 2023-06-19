@@ -3,8 +3,8 @@
 // DO NOT CHANGE IT MANUALLY!
 import { history } from 'dumi';
 import React, { useState, useLayoutEffect, useCallback, type ReactNode } from 'react';
-import { RawIntlProvider, createIntl, createIntlCache } from '/Users/yunyunbaby/工作文件夹/Practice/yunstyle-ui/node_modules/react-intl';
-import { useIsomorphicLayoutEffect } from '/Users/yunyunbaby/工作文件夹/Practice/yunstyle-ui/node_modules/dumi/dist/client/theme-api/utils.js'
+import { RawIntlProvider, createIntl, createIntlCache } from '/Users/yunyunbaby/工作文件夹/yunstyle-ui/node_modules/react-intl';
+import { useIsomorphicLayoutEffect } from '/Users/yunyunbaby/工作文件夹/yunstyle-ui/node_modules/dumi/dist/client/theme-api/utils.js'
 import { locales, messages } from './config';
 
 const cache = createIntlCache();

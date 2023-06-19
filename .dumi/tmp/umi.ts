@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 
-import { renderClient } from '/Users/yunyunbaby/工作文件夹/Practice/yunstyle-ui/node_modules/@umijs/renderer-react';
+import { renderClient } from '/Users/yunyunbaby/工作文件夹/yunstyle-ui/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
 import { createHistory } from './core/history';

@@ -7,7 +7,7 @@ import { useOutlet, history } from 'dumi';
 import nprogress from 'nprogress';
 import './nprogress.css';
 
-import { SiteContext } from '/Users/yunyunbaby/工作文件夹/Practice/yunstyle-ui/node_modules/dumi/dist/client/theme-api/context.js';
+import { SiteContext } from '/Users/yunyunbaby/工作文件夹/yunstyle-ui/node_modules/dumi/dist/client/theme-api/context.js';
 import { demos, components } from '../meta';
 import { locales } from '../locales/config';
 
