@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
-let base = '/yunstyle-ui';
-let publicPath = '/yunstyle-ui/';
+let base = '/yun';
+let publicPath = '/yun';
 
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
   base = undefined;

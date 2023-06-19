@@ -16,7 +16,7 @@
     "include": [
         "src",
         "/**/*.ts"
-    ],
+, ".umirc.ts"    ],
     "exclude": [
         "node_modules",
         "lib",
