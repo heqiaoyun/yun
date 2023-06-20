@@ -1,12 +1,12 @@
 import { defineConfig } from 'dumi';
 
 let base = '/yun';
-let publicPath = '/yun';
+let publicPath = '/yun/';
 
-if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
-  base = undefined;
-  publicPath = undefined;
-}
+// if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
+//   base = '/yunstyle-ui';
+//   publicPath = '/yunstyle-ui/';
+// }
 
 export default defineConfig({
   title: 'QIAOYUN UI',
